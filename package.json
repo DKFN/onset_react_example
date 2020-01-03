@@ -1,8 +1,7 @@
 {
     "author": "DKFN",
     "version": "0.1",
-    "server_scripts": [
-    ],
+    "server_scripts": [],
     "client_scripts": [
         "client/counter.lua"
     ],
