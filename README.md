@@ -3,6 +3,10 @@
 This is a simple onset boilerplate package to make UIs using React in Onset.
 It will contains a base code but also some guidelines on how to integrate it into your packages.
 
+Of course it is well over enginered for a simple counter incrementation but I hope this pattern
+will help your organize complex UI with lots of events and state updates.
+If you want to see how Redux can help you do that check the schema in the bottom of the readme
+
 Make sure you have Node.js and npm up and running.
 
 It is using the followin tools:
@@ -37,3 +41,5 @@ Given what was said above lets see how you can integrate this to your current wo
 First just copy the whole folder except `node_modules` to a folder of your package `gui` for example then Install and Compile the package.
 
 You can then use the result of the build folder as your GUI, clients will not download source files if you do not include them in your package.json
+
+# Redux Schema

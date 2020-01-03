@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import {store} from "./redux/store";
-import {Counter} from "./counter/Counter";
+import {Counter} from "./Counter";
 
-// This is the main part of the application that will run as soon as the cef is ready
+// This is the main part of the application that will run as soon as the cef is ready and javascript loaded
 const App: React.FC = () => {
   return (
     <Provider store={store}>
@@ -14,9 +14,6 @@ const App: React.FC = () => {
             LUA world will update my value every seconds
           </p>
           <Counter />
-          <button>
-            Reset Me
-          </button>
         </header>
       </div>
     </Provider>
